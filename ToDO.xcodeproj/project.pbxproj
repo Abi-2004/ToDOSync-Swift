@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DEC28AB2DE838180038A29E /* ToDOWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2DEC28882DE838160038A29E /* ToDOWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DEC30122DF037B00038A29E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC30112DF037B00038A29E /* WatchConnectivity.framework */; };
+		2DEC30142DF037B90038A29E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC30132DF037B90038A29E /* WatchConnectivity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DEC28682DE837FC0038A29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC284F2DE837FA0038A29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC28562DE837FA0038A29E;
+			remoteInfo = ToDO;
+		};
+		2DEC28722DE837FC0038A29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC284F2DE837FA0038A29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC28562DE837FA0038A29E;
+			remoteInfo = ToDO;
+		};
+		2DEC28982DE838180038A29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC284F2DE837FA0038A29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC28872DE838160038A29E;
+			remoteInfo = "ToDOWatch Watch App";
+		};
+		2DEC28A22DE838180038A29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC284F2DE837FA0038A29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC28872DE838160038A29E;
+			remoteInfo = "ToDOWatch Watch App";
+		};
+		2DEC28A92DE838180038A29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC284F2DE837FA0038A29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC28872DE838160038A29E;
+			remoteInfo = "ToDOWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DEC28AF2DE838180038A29E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2DEC28AB2DE838180038A29E /* ToDOWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DEC28572DE837FA0038A29E /* ToDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC28672DE837FC0038A29E /* ToDOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC28712DE837FC0038A29E /* ToDOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC28882DE838160038A29E /* ToDOWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDOWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC28972DE838180038A29E /* ToDOWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDOWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC28A12DE838180038A29E /* ToDOWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDOWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC30112DF037B00038A29E /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		2DEC30132DF037B90038A29E /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2DEC28592DE837FA0038A29E /* ToDO */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToDO;
+			sourceTree = "<group>";
+		};
+		2DEC286A2DE837FC0038A29E /* ToDOTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToDOTests;
+			sourceTree = "<group>";
+		};
+		2DEC28742DE837FC0038A29E /* ToDOUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToDOUITests;
+			sourceTree = "<group>";
+		};
+		2DEC28892DE838160038A29E /* ToDOWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ToDOWatch Watch App";
+			sourceTree = "<group>";
+		};
+		2DEC289A2DE838180038A29E /* ToDOWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ToDOWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		2DEC28A42DE838180038A29E /* ToDOWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ToDOWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DEC28542DE837FA0038A29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC30122DF037B00038A29E /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28642DE837FC0038A29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC286E2DE837FC0038A29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28852DE838160038A29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC30142DF037B90038A29E /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28942DE838180038A29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC289E2DE838180038A29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DEC284E2DE837FA0038A29E = {
+			isa = PBXGroup;
+			children = (
+				2DEC28592DE837FA0038A29E /* ToDO */,
+				2DEC286A2DE837FC0038A29E /* ToDOTests */,
+				2DEC28742DE837FC0038A29E /* ToDOUITests */,
+				2DEC28892DE838160038A29E /* ToDOWatch Watch App */,
+				2DEC289A2DE838180038A29E /* ToDOWatch Watch AppTests */,
+				2DEC28A42DE838180038A29E /* ToDOWatch Watch AppUITests */,
+				2DEC30102DF037AE0038A29E /* Frameworks */,
+				2DEC28582DE837FA0038A29E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DEC28582DE837FA0038A29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC28572DE837FA0038A29E /* ToDO.app */,
+				2DEC28672DE837FC0038A29E /* ToDOTests.xctest */,
+				2DEC28712DE837FC0038A29E /* ToDOUITests.xctest */,
+				2DEC28882DE838160038A29E /* ToDOWatch Watch App.app */,
+				2DEC28972DE838180038A29E /* ToDOWatch Watch AppTests.xctest */,
+				2DEC28A12DE838180038A29E /* ToDOWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DEC30102DF037AE0038A29E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC30132DF037B90038A29E /* WatchConnectivity.framework */,
+				2DEC30112DF037B00038A29E /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DEC28562DE837FA0038A29E /* ToDO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC287B2DE837FC0038A29E /* Build configuration list for PBXNativeTarget "ToDO" */;
+			buildPhases = (
+				2DEC28532DE837FA0038A29E /* Sources */,
+				2DEC28542DE837FA0038A29E /* Frameworks */,
+				2DEC28552DE837FA0038A29E /* Resources */,
+				2DEC28AF2DE838180038A29E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC28AA2DE838180038A29E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DEC28592DE837FA0038A29E /* ToDO */,
+			);
+			name = ToDO;
+			packageProductDependencies = (
+			);
+			productName = ToDO;
+			productReference = 2DEC28572DE837FA0038A29E /* ToDO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DEC28662DE837FC0038A29E /* ToDOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC287E2DE837FC0038A29E /* Build configuration list for PBXNativeTarget "ToDOTests" */;
+			buildPhases = (
+				2DEC28632DE837FC0038A29E /* Sources */,
+				2DEC28642DE837FC0038A29E /* Frameworks */,
+				2DEC28652DE837FC0038A29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC28692DE837FC0038A29E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DEC286A2DE837FC0038A29E /* ToDOTests */,
+			);
+			name = ToDOTests;
+			packageProductDependencies = (
+			);
+			productName = ToDOTests;
+			productReference = 2DEC28672DE837FC0038A29E /* ToDOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DEC28702DE837FC0038A29E /* ToDOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC28812DE837FC0038A29E /* Build configuration list for PBXNativeTarget "ToDOUITests" */;
+			buildPhases = (
+				2DEC286D2DE837FC0038A29E /* Sources */,
+				2DEC286E2DE837FC0038A29E /* Frameworks */,
+				2DEC286F2DE837FC0038A29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC28732DE837FC0038A29E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DEC28742DE837FC0038A29E /* ToDOUITests */,
+			);
+			name = ToDOUITests;
+			packageProductDependencies = (
+			);
+			productName = ToDOUITests;
+			productReference = 2DEC28712DE837FC0038A29E /* ToDOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2DEC28872DE838160038A29E /* ToDOWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC28AC2DE838180038A29E /* Build configuration list for PBXNativeTarget "ToDOWatch Watch App" */;
+			buildPhases = (
+				2DEC28842DE838160038A29E /* Sources */,
+				2DEC28852DE838160038A29E /* Frameworks */,
+				2DEC28862DE838160038A29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2DEC28892DE838160038A29E /* ToDOWatch Watch App */,
+			);
+			name = "ToDOWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "ToDOWatch Watch App";
+			productReference = 2DEC28882DE838160038A29E /* ToDOWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DEC28962DE838180038A29E /* ToDOWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC28B02DE838180038A29E /* Build configuration list for PBXNativeTarget "ToDOWatch Watch AppTests" */;
+			buildPhases = (
+				2DEC28932DE838180038A29E /* Sources */,
+				2DEC28942DE838180038A29E /* Frameworks */,
+				2DEC28952DE838180038A29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC28992DE838180038A29E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DEC289A2DE838180038A29E /* ToDOWatch Watch AppTests */,
+			);
+			name = "ToDOWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "ToDOWatch Watch AppTests";
+			productReference = 2DEC28972DE838180038A29E /* ToDOWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DEC28A02DE838180038A29E /* ToDOWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC28B32DE838180038A29E /* Build configuration list for PBXNativeTarget "ToDOWatch Watch AppUITests" */;
+			buildPhases = (
+				2DEC289D2DE838180038A29E /* Sources */,
+				2DEC289E2DE838180038A29E /* Frameworks */,
+				2DEC289F2DE838180038A29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC28A32DE838180038A29E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DEC28A42DE838180038A29E /* ToDOWatch Watch AppUITests */,
+			);
+			name = "ToDOWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "ToDOWatch Watch AppUITests";
+			productReference = 2DEC28A12DE838180038A29E /* ToDOWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DEC284F2DE837FA0038A29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2DEC28562DE837FA0038A29E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2DEC28662DE837FC0038A29E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2DEC28562DE837FA0038A29E;
+					};
+					2DEC28702DE837FC0038A29E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2DEC28562DE837FA0038A29E;
+					};
+					2DEC28872DE838160038A29E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2DEC28962DE838180038A29E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2DEC28872DE838160038A29E;
+					};
+					2DEC28A02DE838180038A29E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2DEC28872DE838160038A29E;
+					};
+				};
+			};
+			buildConfigurationList = 2DEC28522DE837FA0038A29E /* Build configuration list for PBXProject "ToDO" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DEC284E2DE837FA0038A29E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2DEC28582DE837FA0038A29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DEC28562DE837FA0038A29E /* ToDO */,
+				2DEC28662DE837FC0038A29E /* ToDOTests */,
+				2DEC28702DE837FC0038A29E /* ToDOUITests */,
+				2DEC28872DE838160038A29E /* ToDOWatch Watch App */,
+				2DEC28962DE838180038A29E /* ToDOWatch Watch AppTests */,
+				2DEC28A02DE838180038A29E /* ToDOWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DEC28552DE837FA0038A29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28652DE837FC0038A29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC286F2DE837FC0038A29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28862DE838160038A29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28952DE838180038A29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC289F2DE838180038A29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEC28532DE837FA0038A29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28632DE837FC0038A29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC286D2DE837FC0038A29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28842DE838160038A29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC28932DE838180038A29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC289D2DE838180038A29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DEC28692DE837FC0038A29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC28562DE837FA0038A29E /* ToDO */;
+			targetProxy = 2DEC28682DE837FC0038A29E /* PBXContainerItemProxy */;
+		};
+		2DEC28732DE837FC0038A29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC28562DE837FA0038A29E /* ToDO */;
+			targetProxy = 2DEC28722DE837FC0038A29E /* PBXContainerItemProxy */;
+		};
+		2DEC28992DE838180038A29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC28872DE838160038A29E /* ToDOWatch Watch App */;
+			targetProxy = 2DEC28982DE838180038A29E /* PBXContainerItemProxy */;
+		};
+		2DEC28A32DE838180038A29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC28872DE838160038A29E /* ToDOWatch Watch App */;
+			targetProxy = 2DEC28A22DE838180038A29E /* PBXContainerItemProxy */;
+		};
+		2DEC28AA2DE838180038A29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC28872DE838160038A29E /* ToDOWatch Watch App */;
+			targetProxy = 2DEC28A92DE838180038A29E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DEC28792DE837FC0038A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DEC287A2DE837FC0038A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DEC287C2DE837FC0038A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToDO/ToDO.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDO/Preview Content\"";
+				DEVELOPMENT_TEAM = FUWAR4XB6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Todo ABi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DEC287D2DE837FC0038A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToDO/ToDO.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDO/Preview Content\"";
+				DEVELOPMENT_TEAM = FUWAR4XB6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Todo ABi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DEC287F2DE837FC0038A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abi.ToDOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDO";
+			};
+			name = Debug;
+		};
+		2DEC28802DE837FC0038A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abi.ToDOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDO";
+			};
+			name = Release;
+		};
+		2DEC28822DE837FC0038A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abi.ToDOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToDO;
+			};
+			name = Debug;
+		};
+		2DEC28832DE837FC0038A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abi.ToDOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToDO;
+			};
+			name = Release;
+		};
+		2DEC28AD2DE838180038A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ToDOWatch Watch App/ToDOWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDOWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FUWAR4XB6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDOWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yourcompany.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		2DEC28AE2DE838180038A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ToDOWatch Watch App/ToDOWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDOWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = M23S8763B3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDOWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yourcompany.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		2DEC28B12DE838180038A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abi.ToDOWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDOWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDOWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		2DEC28B22DE838180038A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abi.ToDOWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDOWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDOWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		2DEC28B42DE838180038A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abi.ToDOWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ToDOWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		2DEC28B52DE838180038A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2ULLN5T94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abi.ToDOWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ToDOWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DEC28522DE837FA0038A29E /* Build configuration list for PBXProject "ToDO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC28792DE837FC0038A29E /* Debug */,
+				2DEC287A2DE837FC0038A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC287B2DE837FC0038A29E /* Build configuration list for PBXNativeTarget "ToDO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC287C2DE837FC0038A29E /* Debug */,
+				2DEC287D2DE837FC0038A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC287E2DE837FC0038A29E /* Build configuration list for PBXNativeTarget "ToDOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC287F2DE837FC0038A29E /* Debug */,
+				2DEC28802DE837FC0038A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC28812DE837FC0038A29E /* Build configuration list for PBXNativeTarget "ToDOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC28822DE837FC0038A29E /* Debug */,
+				2DEC28832DE837FC0038A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC28AC2DE838180038A29E /* Build configuration list for PBXNativeTarget "ToDOWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC28AD2DE838180038A29E /* Debug */,
+				2DEC28AE2DE838180038A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC28B02DE838180038A29E /* Build configuration list for PBXNativeTarget "ToDOWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC28B12DE838180038A29E /* Debug */,
+				2DEC28B22DE838180038A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC28B32DE838180038A29E /* Build configuration list for PBXNativeTarget "ToDOWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC28B42DE838180038A29E /* Debug */,
+				2DEC28B52DE838180038A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DEC284F2DE837FA0038A29E /* Project object */;
+}
